@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxcomposition.controllers.MainController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="24.0" prefWidth="389.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Authors">
+            <items>
+              <MenuItem mnemonicParsing="false" text="New" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleAuthorsWindow" text="All authors" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Books">
+            <items>
+              <MenuItem mnemonicParsing="false" text="New" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleBooksWindow" text="All books" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Ataskaitos">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</Pane>
